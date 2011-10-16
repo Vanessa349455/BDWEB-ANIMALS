@@ -12,26 +12,112 @@
 		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
 		<link rel="shortcut icon" href="/favicon.ico" />
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<link rel="stylesheet" type="text/css" href="estilo.css" />
 	</head>
 	<body>
-		<div>
-			<header>
-				<h1>seja_um_voluntario</h1>
-			</header>
-			<nav>
-				<p>
-					<a href="/">Home</a>
-				</p>
-				<p>
-					<a href="/contact">Contact</a>
-				</p>
-			</nav>
-			<div></div>
-			<footer>
-				<p>
-					&copy; Copyright  by Vanessa
-				</p>
-			</footer>
-		</div>
-	</body>
+<!----------------------------------------------------------------------------------------Inicio DIV BANNER (class banner)--------------------------------------------------------------------------->
+<div class="banner ">&nbsp;</div>
+<!------------------------------------------------------------------------------------------Fim DIV BANNER (class banner)---------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------Inicio DIV MENU (class menu)------------------------------------------------------------------------------->
+<div class="menu">
+  <ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="quem_somos.html">QUEM SOMOS</a></li>
+    <li><a href="adocao_responsavel.html">ADOÇÃO RESPONSÁVEL</a></li>
+    <li><a href="adote.html">ADOTE</a></li>
+    <li><a href="noticias.html">NOTÍCIAS</a></li>
+    <li><a href="parceiros.html">PARCEIROS</a></li>
+    <li><a href="seja_um_voluntario.html">SEJA UM VOLUNTÁRIO</a></li>
+    <li><a href="contato.html">CONTATO</a></li>
+    <li><a href="login.html">LOGIN</a></li>
+  </ul>
+</div>
+<!------------------------------------------------------------------------------------------Fim DIV MENU (class menu)------------------------------------------------------------------------------->
+<!-----------------------------------------------------------------------------------------Inicio DIV BODY (class corpo)----------------------------------------------------------------------------->
+<div class="corpo"> <br />
+  <br />
+  <b>
+  <label>Caso tenha interesse em contribuir de alguma forma com a causa animal juntamente com o projeto BDWEBAnimals. Preencha o formulário abaixo com seus dados pessoais e entraremos em contato assim que possível.</label>
+  </b> <br />
+  <br />
+  <br />
+  <form action="mailto:administrador@bdwebanimals.com.br" method="post" name="formulario">
+    Nome Completo:&nbsp;
+    <input type="text" name="nome" size="50" maxlength="50" title="Informe seu nome" value="ex: Jose da Silva" />
+    <br />
+    <br />
+    Localização:&nbsp;
+    <input type="text" name="localizacao" size="50" maxlength="50" title="Informe seu endereço, número e complemento, caso seja necessário" value="ex: Av. Amazonas 751 apt 203" />
+    <br />
+    <br />
+    Bairro:&nbsp;
+    <input type="text" name="bairro" size="50" maxlength="50" title="Informe seu bairro" value="ex: Barroca" />
+    <br />
+    <br />
+    Cidade:&nbsp;
+    <input type="text" name="cidade" size="50" maxlength="50" title="Informe sua cidade ou município" value="ex: Belo Horizonte" />
+    <br />
+    <br />
+    Estado:&nbsp;
+    <input type="text" name="nome" size="50" maxlength="50" title="Informe seu estado" value="ex: Minas Gerais" />
+    <br />
+    <br />
+    País:&nbsp;
+    <input type="text" name="nome" size="50" maxlength="50" title="Informe sua nacionalidade" value="ex: Brasil" />
+    <br />
+    <br />
+    Email:&nbsp;
+    <input type="text" name="email" size="50" maxlength="50" title="Informe seu endereço de email" value="ex:josedasilva@gmail.com" />
+    <br />
+    <br />
+    Telefone residencial:&nbsp;
+    <input type="text" name="telefone" size="20" maxlength="20" title="Informe seu telefone residencial com DDD" value="ex: 031-22334455" />
+    <br />
+    <br />
+    Telefone comercial:&nbsp;
+    <input type="text" name="telefone" size="20" maxlength="20" title="Informe seu telefone comercial com DDD" value="ex: 031-33445566" />
+    <br />
+    <br />
+    Telefone celular:&nbsp;
+    <input type="text" name="telefone" size="20" maxlength="20" title="Informe seu telefone celular com DDD" value="ex: 031-99999999" />
+    <br />
+    <br />
+    Sexo:&nbsp;
+    <select name="sexo" title="Informe o sexo">
+      <option value="m" selected="selected">Masculino</option>
+      <option value="f">Feminino</option>
+    </select>
+    <br />
+    <br />
+    Grau de instrução:&nbsp;
+    <select name="instrucao" title="Informe o seu grau de instrução">
+      <option value="1">Ensino Fundamental</option>
+      <option value="2">Ensino Médio</option>
+      <option value="3" selected="selected">Superior incompleto</option>
+      <option value="4">Superior completo</option>
+      <option value="5">Mestrado</option>
+      <option value="6">Doutorado</option>
+    </select>
+    <br />
+    <br />
+    Atividade:&nbsp;
+    <input type="text" name="atividade" size="20" maxlength="20" title="Informe sua atividade" value="ex: estagiário" />
+    <br />
+    <br />
+    Mensagem:&nbsp;<br />
+    <textarea rows="10" cols="160" name="mensagem" title="Deixe aqui sua mensagem"></textarea>
+    <br />
+    <input type="submit" name="submeter" value="ENVIAR" title="Envie o formulário"   />
+    <input type="reset" name="limpar" value="LIMPAR" title="Cuidado. Esta opção irá limpar todo o conteúdo do formulario preenchido" />
+  </form>
+</div>
+<!-------------------------------------------------------------------------------------------FIM DIV BODY (class corpo)------------------------------------------------------------------------------>
+<!-----------------------------------------------------------------------------------------Inicio DIV RODAPÉ (class rodape)-------------------------------------------------------------------------->
+<div class="rodape">
+  <footer>
+    <p>&copy; Copyright  BDWEB Animals&nbsp;&nbsp;&nbsp;&nbsp;</p>
+  </footer>
+</div>
+<!-------------------------------------------------------------------------------------------Fim DIV RODAPÉ (class rodape)--------------------------------------------------------------------------->
+</body>
 </html>
