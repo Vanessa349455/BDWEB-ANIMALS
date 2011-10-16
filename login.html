@@ -47,30 +47,33 @@
 
 
 <!-----------------------------------------------------------------------------------------Inicio DIV BODY (class corpo)----------------------------------------------------------------------------->
-<div class="corpo"> <br />
-  <br />
-  <b>
-  <label>Para efetuar o login em nosso site, é necessário informar usuário e senha no formulário abaixo. Em seguida, clique no botão &quot;LOGIN&quot;.</label>
-  </b><br />
-  <br />
-  <br />
-  <form action="mailto:administrador@bdwebanimals.com.br" method="post" name="formulario">
-    Usuário:&nbsp;
-    <input type="text" name="usuario" size="20" maxlength="10" title="Informe o nome do usuário. Máximo de 10 caracteres alfanuméricos" />
-    <br />
-    Senha:&nbsp;&nbsp;&nbsp;&nbsp;
-    <input type="password" name="senha" size="20" maxlength="10" title="Informe sua senha. Máximo de 10 caracteres alfanuméricos" />
-    <br /><br />
-    <input type="button" name="botao" title="Clique aqui para efetuar o login em nosso sistema" value="LOGIN" />
-     <br /><br /><br />
-    Em caso de dúvidas, envie uma mensagem para nosso suporte técnico.<br />
-    <br />
-    Mensagem:&nbsp;<br />
-    <textarea rows="10" cols="160" name="mensagem" title="Deixe aqui sua mensagem" ></textarea>
-    <br />
-    <input type="submit" name="submeter" value="ENVIAR" title="Envie o formulário"   />
-    <input type="reset" name="limpar" value="LIMPAR" title="Cuidado. Esta opção irá limpar todo o conteúdo do formulario preenchido" />
-  </form>
+<div class="corpo">
+<div>
+	<div class="tela_login">
+          <div id="login" class="login_form">
+           <form action="/session" method="post">
+             <div style="margin:0; padding:0">
+                <h1>Login</h1>
+             </div>
+              <div class="formbody"> 
+                <label for="login">
+                   Email
+                   </br>
+                   <input class="text" id="login_field" name="login" style="width: 21em;" tabindex="1" type="email">
+                </label>
+                <label for="password">
+                  Senha <a href="/sessions/forgot_password"></a>
+                  </br>
+                  <input class="text" id="password" name="password" style="width: 21em;" tabindex="2" type="password" value="">
+                </label>
+                <label class="submit_btn">  
+                  <input name="commit" tabindex="3" type="submit" value="Login">
+                </label>
+              </div>
+           </form>
+         </div>
+       </div>
+       </div>
 </div>
 <!-------------------------------------------------------------------------------------------FIM DIV BODY (class corpo)------------------------------------------------------------------------------>
 
