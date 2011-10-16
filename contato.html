@@ -12,26 +12,84 @@
 		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
 		<link rel="shortcut icon" href="/favicon.ico" />
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<link rel="stylesheet" type="text/css" href="estilo.css" />
 	</head>
-	<body>
-		<div>
-			<header>
-				<h1>contato</h1>
-			</header>
-			<nav>
-				<p>
-					<a href="/">Home</a>
-				</p>
-				<p>
-					<a href="/contact">Contact</a>
-				</p>
-			</nav>
-			<div></div>
-			<footer>
-				<p>
-					&copy; Copyright  by Vanessa
-				</p>
-			</footer>
-		</div>
-	</body>
+<!----------------------------------------------------------------------------------------Inicio DIV BANNER (class banner)--------------------------------------------------------------------------->
+<div class="banner ">&nbsp;</div>
+<!------------------------------------------------------------------------------------------Fim DIV BANNER (class banner)---------------------------------------------------------------------------->
+
+
+
+
+
+
+<!----------------------------------------------------------------------------------------Inicio DIV MENU (class menu)------------------------------------------------------------------------------->
+<div class="menu">
+  <ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="quem_somos.html">QUEM SOMOS</a></li>
+    <li><a href="adocao_responsavel.html">ADOÇÃO RESPONSÁVEL</a></li>
+    <li><a href="adote.html">ADOTE</a></li>
+    <li><a href="noticias.html">NOTÍCIAS</a></li>
+    <li><a href="parceiros.html">PARCEIROS</a></li>
+    <li><a href="seja_um_voluntario.html">SEJA UM VOLUNTÁRIO</a></li>
+    <li><a href="contato.html">CONTATO</a></li>
+    <li><a href="login.html">LOGIN</a></li>
+  </ul>
+</div>
+<!------------------------------------------------------------------------------------------Fim DIV MENU (class menu)------------------------------------------------------------------------------->
+
+
+
+
+
+
+<!-----------------------------------------------------------------------------------------Inicio DIV BODY (class corpo)----------------------------------------------------------------------------->
+<div class="corpo">
+
+<br /><br />
+<b><label>Deixe aqui sua crítica ou sugestão. Preencha o formulário abaixo e aguarde o retorno. Obrigado.</label></b>
+<br /><br /><br />
+<form action="mailto:administrador@bdwebanimals.com.br" method="post" name="formulario">
+Nome:&nbsp;<input type="text" name="nome" size="50" maxlength="50" title="Informe seu nome" value="ex:Jose da Silva" />
+<br /><br />
+Email:&nbsp;<input type="text" name="email" size="50" maxlength="50" title="Informe seu endereço de email" value="ex:josedasilva@gmail.com" />
+<br /><br />
+Telefone:&nbsp;<input type="text" name="telefone" size="20" maxlength="20" title="Informe seu telefone com DDD" value="ex:031-99999999" />
+<br /><br />
+Assunto:&nbsp;<select name="assunto" title="Selecione o assunto desejado">
+			<option value="sugestao" selected="selected">Sugestão</option>
+            <option value="critica">Crítica</option>
+      	</select><br /><br />
+Tema:&nbsp;<select name="tema" title="Selecione o tema desejado">
+			<option value="reponsavel" selected="selected">Adoção Responsável</option>
+            <option value="adote">Adote</option>
+      		<option value="noticias">Notícias</option>
+      		<option value="parceiros">Parceiros</option>
+      		<option value="voluntarios">Voluntários</option>
+      		<option value="login">Login</option>
+		</select><br /><br />
+Mensagem:&nbsp;<br /><textarea rows="10" cols="160" name="mensagem" title="Deixe aqui sua mensagem"></textarea><br />
+<input type="submit" name="submeter" value="ENVIAR" title="Envie o formulário"   />
+<input type="reset" name="limpar" value="LIMPAR" title="Cuidado. Esta opção irá limpar todo o conteúdo do formulario preenchido" />        
+</form>
+
+</div>
+<!-------------------------------------------------------------------------------------------FIM DIV BODY (class corpo)------------------------------------------------------------------------------>
+
+
+
+
+
+
+
+
+<!-----------------------------------------------------------------------------------------Inicio DIV RODAPÉ (class rodape)-------------------------------------------------------------------------->
+<div class="rodape">
+  <footer>
+    <p>&copy; Copyright  BDWEB Animals&nbsp;&nbsp;&nbsp;&nbsp;</p>
+  </footer>
+</div>
+<!-------------------------------------------------------------------------------------------Fim DIV RODAPÉ (class rodape)--------------------------------------------------------------------------->
+</body>
 </html>
